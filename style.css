@@ -1,0 +1,471 @@
+html{
+    scroll-behavior: smooth;
+    /* font-family: 'Roboto', sans-serif; */
+    /*  font-family: 'Lato', sans-serif; */
+    font-family: 'Domine', serif !important;
+         
+}
+
+img {
+    width: 100%;
+}
+a{
+	color: black;
+}
+p{
+	font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Domine', serif ;
+}
+.card
+{
+	border: none;
+}
+.card-title{
+	font-size: 25px;
+    font-weight: 500;
+    text-transform: none;
+    letter-spacing: 0;
+    color: black;
+}
+.card-body {
+    padding: 1rem 0;
+}
+
+/* --------------------------------------------------
+underline area 
+----------------------------------------------- */
+  .color-underline {
+    background-image: linear-gradient(rgba(var(--themecolorrgba, 243, 152, 135), 0.3), rgba(var(--themecolorrgba, 243, 152, 135), 0.3));
+    background-size: 0% 8%;
+    background-repeat: no-repeat;
+    background-position: 0 81%;
+    padding: 0 2px 2px 0;
+    transition: background .6s cubic-bezier(.19,1,.22,1);
+}
+
+.color-underline:hover{
+ 	    background-size: 100% 8px;
+ 	    color: black;
+ }
+
+.underline:after {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 5px;
+    top: 55%;
+    background: #fa6c5347;
+    left: 0;
+    transition: .4s;
+
+}
+.underline:hover:after{
+ 	width: 100%;
+ }
+ul{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/* -------------------------------------------------------
+header area start
+----------------------------------------------------- */
+.sticky-wrapper {z-index: 100; }
+.header-area {
+	z-index: 111;
+	background-color: white;
+}
+.header-area .row{
+	align-items: center;
+}
+.header-area .row .social-area .row {
+    --bs-gutter-x: 0;
+}
+.header-area .social li {
+    margin: 0 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.header-area .logo p{
+	position: relative;
+}
+.header-area .logo p:before{
+	position: absolute;
+    content: "";
+    background-color: transparent;
+    width: 31%;
+    height: 4px;
+    border-top: 4px double #DDD;
+    top: 50%;
+    left: 35px;
+}
+.header-area .logo p:after{
+	position: absolute;
+    content: "";
+    background-color: transparent;
+    width: 31%;
+    height: 4px;
+    border-top: 4px double #DDD;
+    top: 50%;
+    right: 35px;
+}
+
+.header-area .navbar-nav img.rounded-circle {
+    width: 18px;
+    height: 18px;
+}
+/* -------------------------------------------------------
+header area start
+------------------------------------------------------ */
+
+
+/* -------------------------------------------------------
+menu area start
+------------------------------------------------------ */
+.menu-area .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link,.navbar-light .navbar-nav .nav-link {
+    color: #525252;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 10px 0;
+}
+.menu-area ul.navbar-nav {
+    justify-content: space-between;
+    width: 100%;
+}
+.menu-area a.nav-link.active, a.nav-link {
+    position: relative;
+    font-family: 'Domine', serif;
+}
+.menu-area a.nav-link.active:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 5px;
+    top: 61%;
+    background: #fa6c5347;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+
+/* -------------------------------------------------------
+menu area start
+------------------------------------------------------ */
+
+/* -------------------------------------------------------
+hero area start
+------------------------------------------------------ */
+.catagori-name{
+	font-size: 11px;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.hero-area{
+	padding: 50px 0;
+}
+.hero-area .hero-content img{
+    width: 100%;
+
+}
+
+.hero-area .hero-content, .hero-two .hero-content{
+	border: none;
+	border-right: 1px solid rgba(0,0,0,.125);
+    border-radius: 0;
+    padding-right: 30px;
+}
+.hero-content .card-body {
+    padding: 1rem 0;
+}
+
+.hero-area .headline img, .hero-two  .headline img {
+    width: 100%;
+}
+
+.hero-area .headline .card, .hero-two  .headline .card {
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    border-radius: 0;
+    padding: 20px 0;
+}
+.hero-area .headline .card-body, .hero-two  .headline .card-body {
+    padding: 0rem 1rem;
+}
+.hero-area .headline .card-title, .hero-two  .headline .card-title {
+    font-size: 1.25rem;
+}
+/* -------------------------------------------------------
+hero area start
+------------------------------------------------------ */
+
+/* -------------------------------------------------------
+subscribe area start
+------------------------------------------------------ */
+.subscribe-area .container{
+	background-color: #FFEAE6;
+}
+.subscribe-area .info.d-flex {
+    align-items: center;
+}
+.subscribe-area .container .subscribe {
+    padding: 50px 0;
+}
+.subscribe-area .container .form-control {
+    display: inline;
+    width: 60%;
+    }
+.sbuscribe-btn{
+	background-color: #413f3feb;
+}
+.sbuscribe-btn:hover{
+	background-color: #F39887;
+  }
+/* -------------------------------------------------------
+subscribe area end
+------------------------------------------------------ */
+
+/* -------------------------------------------------------
+video-blog area start
+------------------------------------------------------ */
+.video-blog .card {
+    border: none;
+}
+.video-blog .watch{
+	align-items: center;
+}
+.video-blog .card i.fas.fa-play {
+    padding: 5px;
+    background: #c5c0c0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 8px;
+    color: #000;
+}
+.video-blog .card .watch p{
+	margin: 0;
+	color: white;
+}
+.video-blog .card .image{
+	position: relative;
+}
+.video-blog .card .watch{
+	position: absolute;
+	bottom: 20px;
+	left: 30px;
+}
+/* -------------------------------------------------------
+video-blog area end
+------------------------------------------------------ */
+
+
+/* -------------------------------------------------------
+hero-tow area start
+------------------------------------------------------ */
+.hero-two{
+	background: #000;
+	padding: 60px 0;
+}
+.hero-two .hero-content {
+    background: transparent;
+}
+.hero-two .catagori-name {
+    color: #E49887;
+}
+.hero-two .card-title {
+    color: white;
+}
+.hero-area .headline .card, .hero-two .headline .card {
+    background: transparent;
+}
+.hero-two .hero-content {
+    border-right: 1px solid rgb(255 252 252 / 32%);
+    }
+ .hero-two .headline .card {
+    border-bottom: 1px solid rgb(255 252 252 / 32%);
+}
+/* -------------------------------------------------------
+hero-tow area end
+------------------------------------------------------ */
+
+
+/* -------------------------------------------------------
+history area start
+------------------------------------------------------ */
+.history{
+	padding: 60px 0;
+}
+.history .col-lg-8{
+	    border-right: 1px solid rgba(0,0,0,.125);
+}
+.history p.card-text {
+    margin: 20px 0;
+}
+.history h2 {color: #DDDDDD;}
+
+.history .num {
+    margin-right: 10px;
+}
+.history .content .one {
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.history .content .card-title {
+    font-size: 1rem;
+    }
+.section-devidar{
+	background-color: #F9F9F9;
+	height: 100px;
+}
+
+/* -------------------------------------------------------
+history area end
+------------------------------------------------------ */
+
+
+/* -------------------------------------------------------
+post-list area start
+------------------------------------------------------ */
+
+
+.post-list{
+	margin: 60px 0;
+}
+.post-list .colum:not(:last-child){
+	border-right: 1px solid rgba(0,0,0,.125);
+	padding: 0px 20px;
+}
+.post-list .content{
+	padding: 30px 0;
+}
+
+.post-list .content:not(:last-child) {
+	border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.post-list .content .card-title {
+    font-size: 1.25rem;
+}
+.post-list .content .view-more a {
+    text-decoration: underline;
+    font-weight: 500;
+    opacity: .8;
+}
+.post-list .content .view-more a:hover {
+    color: black;
+    opacity: 1;
+}
+/* -------------------------------------------------------
+post-list area end
+------------------------------------------------------ */
+
+
+/* -------------------------------------------------------
+fotter area start
+------------------------------------------------------ */
+.fotter-area{
+	background-color: rgba(255, 234, 230, 0.32);
+	padding: 60px 0;
+}
+.fotter-area .title h4 {
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.fotter-area .links li {
+    padding: 5px 0;
+}
+.fotter-area .links a {
+    text-transform: capitalize;
+    color: black;
+}
+.fotter-area .social li {
+    margin: 0 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.fotter-area .links .social li {
+    padding: 0px 0;
+}
+.social li a i {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 7px 0;
+    background: #444;
+
+}
+.social li a i:nth-child(1){
+	transition: .4s;
+}
+.social li:hover a i:nth-child(1) {
+    margin-top: -30px;
+}
+.social li:hover a i.fa-facebook-f{
+    background-color: #3B5998;
+}
+.social li:hover a i.fa-instagram{
+    background-color: #8A3AB9;
+}
+.social li:hover a i.fa-twitter{
+    background-color: #00ACEE;
+}
+.social li:hover a i.fa-apple-pay{
+    background-color: #333333;
+}
+.fotter-area span.badge {
+    color: gray;
+    font-weight: 400;
+    border: 1px solid;
+    margin: 2px 0;
+    transition: .4s;
+}
+.fotter-area span.badge:hover {
+	color: #F6A487;
+}
+.fotter-area button {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+    background: #444;
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+/* -------------------------------------------------------
+fotter area end
+------------------------------------------------------ */
+.copy{
+	padding: 50px 0;
+}
+
+.copy ul li{
+    padding: 0 10px;
+    position: relative;
+}
+.copy ul li:not(:last-child):after{
+	position: absolute;
+	content: '/';
+	color: black;
+	left: 97%;
+}
