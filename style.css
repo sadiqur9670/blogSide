@@ -96,6 +96,9 @@ header area start
     overflow: hidden;
 }
 
+.header-area .logo img{
+	
+}
 .header-area .logo p{
 	position: relative;
 }
@@ -120,6 +123,9 @@ header area start
     right: 35px;
 }
 
+.header-area .navbar{
+	float: right;
+}
 .header-area .navbar-nav img.rounded-circle {
     width: 18px;
     height: 18px;
