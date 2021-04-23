@@ -402,14 +402,15 @@ fotter area start
     color: black;
 }
 .fotter-area .social li {
-    margin: 0 5px;
+    margin: 5px;
     width: 30px;
     height: 30px;
     border-radius: 5px;
     overflow: hidden;
+    padding: 0px 0;
 }
 .fotter-area .links .social li {
-    padding: 0px 0;
+   
 }
 .social li a i {
     display: block;
@@ -445,7 +446,7 @@ fotter area start
     transition: .4s;
 }
 .fotter-area span.badge:hover {
-	color: #F6A487;
+	color: #f5764a;
 }
 .fotter-area button {
     width: 100%;
